@@ -1,0 +1,10 @@
+[package]
+name = "follow-investigator"
+version = "0.1.0"
+authors = ["Jean <48181581+0xBEE@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+egg-mode = "0.15"
+tokio = {"version"= "0.2", features=["full"]}
+futures = "*"
